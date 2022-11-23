@@ -28,13 +28,9 @@ namespace PrincipiOOProgramiranja
     }
     class Kugla : GeometrijskoTijelo
     {
-        public Kugla() : base()
-        {
-            
-        }
-
         public Kugla(double volumen, double oplosje) : base(volumen, oplosje)
         {
+        
         }
     }
     class Kvadar : GeometrijskoTijelo
